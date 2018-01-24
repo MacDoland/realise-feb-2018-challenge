@@ -18,3 +18,22 @@ Please don’t worry if you can’t afford to give much time, each task is desig
 
 Dependant on the range of ratings submitted I may have to duplicate some tasks, but I will use the best example of each in the final program.
 Please refrain from trying to work out the final result with your peers, save it for the big reveal.  
+
+
+## Setup ##
+Clone the repository
+open a command line and navigate to the root directory
+run command 'npm install'
+execute the batch file run.bat
+
+If either rollup or browser-sync are not found, you may need to either add them to your PATH or install them globally
+
+The commands are as follows:
+npm install -g rollup
+npm install -g browser-sync
+
+Note: browser-sync is optional, you can use a different web server tool.
+
+To run the compilation without run.bat just run the following command on the command line "rollup -c"
+
+If everything was successful you should see the message "Hello World!" in your browsers console.
