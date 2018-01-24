@@ -21,16 +21,17 @@ Please refrain from trying to work out the final result with your peers, save it
 
 
 ## Setup ##
-Clone the repository
-open a command line and navigate to the root directory
-run command 'npm install'
-execute the batch file run.bat
+- Clone the repository
+- open a command line and navigate to the root directory
+- run command 'npm install'
+- execute the batch file run.bat
 
 If either rollup or browser-sync are not found, you may need to either add them to your PATH or install them globally
 
 The commands are as follows:
-npm install -g rollup
-npm install -g browser-sync
+- npm install -g rollup
+- npm install -g browser-sync
+
 
 Note: browser-sync is optional, you can use a different web server tool.
 
