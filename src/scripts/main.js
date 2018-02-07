@@ -1,4 +1,5 @@
 import example from './example.js';
+
 import {eventDispatcher} from './event-dispatcher.js';
 
 (function(){

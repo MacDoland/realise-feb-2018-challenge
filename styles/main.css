@@ -1,0 +1,83 @@
+html,body{
+  height:100%;
+  position:relative;
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fcfcfc+0,efefef+40,dddddd+100 */
+background: #fcfcfc; /* Old browsers */
+background: -moz-linear-gradient(top, #fcfcfc 0%, #efefef 40%, #adadad 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #fcfcfc 0%,#efefef 40%,#adadad 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #fcfcfc 0%,#efefef 40%,#adadad 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#adadad',GradientType=0 ); /* IE6-9 */
+}
+
+canvas{
+  background:#000;
+  border: 1px solid #000;
+  position: relative;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+
+  height:800px;
+  width:800px;
+
+ image-rendering: optimizeSpeed;             /* Older versions of FF          */
+ image-rendering: -moz-crisp-edges;          /* FF 6.0+                       */
+ image-rendering: -webkit-optimize-contrast; /* Safari                        */
+ image-rendering: -o-crisp-edges;            /* OS X & Windows Opera (12.02+) */
+ image-rendering: pixelated;                 /* Awesome future-browsers       */
+ -ms-interpolation-mode: nearest-neighbor;   /* IE */
+}
+
+
+#controls{
+  position: absolute;
+  bottom:0;
+  padding:40px;
+
+}
+
+button{
+  cursor: pointer;
+  min-width:100px;
+  min-height:50px;
+}
+
+.slidecontainer {
+    width: 100%; /* Width of the outside container */
+}
+
+/* The slider itself */
+.slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 100%; /* Full-width */
+    height: 25px; /* Specified height */
+    background: #d3d3d3; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #4CAF50; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #4CAF50; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
