@@ -5,7 +5,7 @@ export default {
   output: {
     format: 'iife',
     file:'dist/bundle.js',
-    sourcemap:'inline'
+    sourcemap: false
   },
   plugins: [
    babel({
