@@ -1,11 +1,11 @@
 import babel from 'rollup-plugin-babel';
 
 export default {
-  input: 'src/scripts/main.js',
+  input: 'src/scripts/solution/solution.js',
   output: {
     format: 'iife',
     file:'dist/bundle.js',
-    sourcemap:'inline'
+    sourcemap: false
   },
   plugins: [
    babel({
